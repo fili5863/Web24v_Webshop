@@ -1,0 +1,46 @@
+@import '_variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fontDefault);
+  background-color: var(--colorSecondary);
+}
+
+header,
+footer {
+  color: whitesmoke;
+  font-family: var(--fontHighlight);
+  background-color: var(--colorbgSecondary);
+}
+
+header {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+nav {
+  padding: 0.25rem 2rem;
+  border-bottom: solid 0.2rem var(--colorbgSecondary);
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav li > a {
+  text-decoration: none;
+  color: var(--colorbgSecondary);
+}
+
+section,
+article {
+  margin: 1rem;
+}

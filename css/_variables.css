@@ -1,0 +1,9 @@
+:root {
+  --colorSecondary: floralwhite;
+  --colorbgSecondary: hotpink;
+  --ColorHeader: gray;
+  --ColorFooter: gray;
+
+  --fontDefault: Verdana, Arial, sans-serif;
+  --fontHighlight: 'Times New Roman', Times, serif;
+}
